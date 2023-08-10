@@ -8,5 +8,8 @@ body {
     font-family: 'Bookman Old Style', sans-serif;
   }
 p{
-    color: red;
+    color: rgb(255, 94, 0);
 }
+h1, h2, h3 {
+    font-family: 'Bookman Old Style', sans-serif;
+  }
