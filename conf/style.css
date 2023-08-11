@@ -28,12 +28,11 @@ h1, h2, h3 {
 }
 
 #conteudo1 {
-  margin-top: 60px; /* para deixar espaço para o menu fixo */
+  margin-top: 80px; /* para deixar espaço para o menu fixo */
   padding: 20px;
   background-color: black;
 }
 #conteudo2 {
-  margin-top: 60px; /* para deixar espaço para o menu fixo */
   padding: 20px;
   background-color: black;
 }
