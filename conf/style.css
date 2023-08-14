@@ -28,12 +28,20 @@ h1, h2, h3 {
 }
 
 
-#conteudo1 {
+#main_brasao {
   margin-top: 80px; /* para deixar espaço para o menu fixo */
   padding: 20px;
   background-color: black;
 }
-#conteudo2 {
+#historia {
+  padding: 20px;
+  background-color: black;
+}
+#sede {
+  padding: 20px;
+  background-color: black;
+}
+#na_midia {
   padding: 20px;
   background-color: black;
 }
