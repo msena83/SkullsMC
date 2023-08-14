@@ -26,8 +26,6 @@ h1, h2, h3 {
   top: 0;
   width: 100%;
 }
-
-
 #main_brasao {
   margin-top: 80px; /* para deixar espaço para o menu fixo */
   padding: 20px;
@@ -45,9 +43,12 @@ h1, h2, h3 {
   padding: 20px;
   background-color: black;
 }
+#contatos {
+  padding: 20px;
+  background-color: black;
+}
 #footer {
   background-color: #333;
-  color: rgb(255, 0, 0);
   padding: 10px;
   position: relative;
   bottom: 0;
@@ -65,3 +66,8 @@ nav a {
   font-size: 22px;
   text-decoration: none;
 }
+.creditos {
+  text-align: right; /* Isso redefine o alinhamento do texto para a direita, caso haja estilos conflitantes */
+  color: #ffffff;
+  font-size: 10px;
+  }
