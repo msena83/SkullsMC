@@ -18,34 +18,55 @@ h1, h2, h3 {
 #parametro1{
   color: blue;
 }
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  height: 10vh; /* Defina a altura do menu em porcentagem da altura da tela */
+}
+
+.content {
+  margin-top: 10vh; /* Espaço para o menu */
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
 #menu {
   background-color: #333;
-  color: rgb(252, 0, 0);
+  /*color: rgb(252, 0, 0);
   padding: 10px;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100%;*/
 }
 #main_brasao {
-  margin-top: 80px; /* para deixar espaço para o menu fixo */
   padding: 20px;
   background-color: black;
 }
 #historia {
   padding: 20px;
   background-color: black;
+  text-align: center;
 }
 #sede {
   padding: 20px;
   background-color: black;
+  text-align: center;
 }
 #na_midia {
   padding: 20px;
   background-color: black;
+  text-align: center;
 }
 #contatos {
   padding: 20px;
   background-color: black;
+  text-align: center;
 }
 #footer {
   background-color: #333;
@@ -63,7 +84,7 @@ nav a {
   text-transform: uppercase;
   color: #ffffff;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 20px;
   text-decoration: none;
 }
 .creditos {
@@ -72,8 +93,10 @@ nav a {
   font-size: 10px;
   }
   .tg  {border-collapse:collapse;border-spacing:0;color: #ffffff;}
-  .tg td{border-color:black;border-style:solid;border-width:1px;;
+  .tg td{border-color:rgb(255, 255, 255);border-style:solid;border-width:1px;;
     overflow:hidden;padding:10px 5px;word-break:normal;}
-  .tg th{border-color:black;border-style:solid;border-width:1px;;
+  .tg th{border-color:rgb(255, 255, 255);border-style:solid;border-width:1px;;
     font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
   .tg .tg-0lax{text-align:center;vertical-align:top}
+
+.endereco{text-align: center;color: #ffffff;}
